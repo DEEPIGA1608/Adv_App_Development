@@ -1,0 +1,86 @@
+/* Profile.css */
+
+.proco {
+  width: 100%;
+  height: 100%;
+  
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f5f5;
+}
+
+.profile-box {
+  max-width: 600px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.proname {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.detail-item {
+  margin-bottom: 15px;
+}
+
+.label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.link {
+  color: #007bff;
+  cursor: pointer;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+/* Additional styles for the recharge history table */
+.recharge-history {
+  margin-top: 20px;
+}
+
+.recharge-history h3 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.bio {
+  color: #555;
+  line-height: 1.5;
+}
+
+.he {
+  font-size: 3em;
+  color: #333;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
