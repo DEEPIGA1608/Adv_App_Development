@@ -1,0 +1,56 @@
+a{
+  text-decoration: none;
+  
+}
+.hn{
+  color:rgb(39, 118, 202);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.np{
+  margin-right:190px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.site-contentn {
+ 
+
+  
+}
+.img-circle {
+  height:240px;
+  width:260px;
+  border-radius: 50%;
+  
+}
+
+.description {
+  padding: 20px;
+}
+
+.rown {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.rown:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.col-sm-4 {
+  order: -1; /* Move the first column (image) to the left */
+}
+
+.col-sm-8 {
+  flex-grow: 1; /* Allow the second column (text) to fill the remaining space */
+}
+
+#homeusbag{
+  margin-left:-8px;
+  margin-right:-7px;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 1300px 600px;
+  
+}
