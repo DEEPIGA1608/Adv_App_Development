@@ -1,0 +1,29 @@
+/* Contact.css */
+
+.contact-container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-container h2 {
+  color: #333;
+  text-align: center;
+}
+
+.contact-container p {
+  color: #666;
+  line-height: 1.6;
+}
+
+.contact-container a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.contact-container a:hover {
+  text-decoration: underline;
+}
